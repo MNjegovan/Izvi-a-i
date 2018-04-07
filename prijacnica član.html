@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<style>
+    div {
+        width: 250px;
+        height: 500px;
+        border: 1px solid black;
+        align-self: center;
+        padding: 50px;
+
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+</style>
+<body>
+<div>
+    <form action="obrada.php" method="post">
+        <h1>Član </h1>
+        <input type="text" placeholder="Ime" name="ime"><br>
+        <input type="text" placeholder="Prezime" name="prezime"><br>
+        <input type="text" placeholder="Nadimak" name="nadimak"><br>
+        <input type="text" placeholder="Adresa stanovanja" name="adresa"><br>
+        <input type="radio" value="Osnovna skola" name="skola">Osnovna skola<br>
+        <input type="radio" value ="Srednja skola" name="skola">Srednja skola<br>
+        <input type="radio" value="Faks" name="skola">Faks<br>
+        <input type="text" placeholder="Broj telefona/mobitela" name="broj"><br>
+        <input type="text" placeholder="Prijatelj sa kojim bi želio biti u grupi" name="prijatelj" size="26"><br>
+        <p>Čiji je broj telefona?</p>
+        <input type="radio" value="mame" name="koradi">mama<br>
+        <input type="radio" value ="tate" name="koradi">tata<br>
+        <input type="radio" value="moj" name="koradi">ja<br>
+        <br>
+        <input type="text" placeholder="E-mail adresa" name="maile"><br>
+        <input type="date" placeholder="Datum rođenja" name="datum"><br>
+        <input type="password" placeholder="šifra koju želiš koristit" name="šifra"><br>
+        <input type="password" placeholder="ponovi šifru" name="šifra"><br>
+        <button type="submit">Pošalji</button>
+    </form>
+
+</html>
